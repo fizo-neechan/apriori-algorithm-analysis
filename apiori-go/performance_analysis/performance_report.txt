@@ -1,0 +1,61 @@
+Performance Analysis Report
+=========================
+
+Generated on: 2024-12-23 02:52:44
+
+Dataset Statistics:
+--------------------
+
+Dataset: connect_processed
+  Dataset Size: 67557.0 transactions
+  Total Itemsets: 15927
+  Maximum Itemset Size: 11
+
+Raw Performance Metrics:
+  Processing Time: 465.685 seconds
+  Total Time: 940.304 seconds
+
+Normalized Metrics:
+  Time per Transaction: 0.013919 seconds
+  Time per Itemset: 0.029239 seconds
+  Itemsets per Transaction: 0.24
+  Processing Speed: 34.20 itemsets/second
+  Transaction Throughput: 71.85 transactions/second
+
+--------------------------------------------------
+
+Dataset: chess_processed
+  Dataset Size: 3196.0 transactions
+  Total Itemsets: 6607
+  Maximum Itemset Size: 9
+
+Raw Performance Metrics:
+  Processing Time: 13.598 seconds
+  Total Time: 24.148 seconds
+
+Normalized Metrics:
+  Time per Transaction: 0.007556 seconds
+  Time per Itemset: 0.002058 seconds
+  Itemsets per Transaction: 2.07
+  Processing Speed: 485.90 itemsets/second
+  Transaction Throughput: 132.35 transactions/second
+
+--------------------------------------------------
+
+Dataset: accidents_processed
+  Dataset Size: 340183.0 transactions
+  Total Itemsets: 559
+  Maximum Itemset Size: 5
+
+Raw Performance Metrics:
+  Processing Time: 80.722 seconds
+  Total Time: 144.564 seconds
+
+Normalized Metrics:
+  Time per Transaction: 0.000425 seconds
+  Time per Itemset: 0.144404 seconds
+  Itemsets per Transaction: 0.00
+  Processing Speed: 6.93 itemsets/second
+  Transaction Throughput: 2353.16 transactions/second
+
+--------------------------------------------------
